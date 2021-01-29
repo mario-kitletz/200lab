@@ -28,7 +28,27 @@ class MyHomePage extends StatefulWidget {
   _MyHomePageState createState() => _MyHomePageState();
 }
 
+const Celcius = 'celcius';
+const Fahrenheit = 'fahrenheit';
+
+enum TempType { celcius, fahrenheit }
+
 class _MyHomePageState extends State<MyHomePage> {
+  final _cCtlr = TextEditingController();
+  final _fCtlr = TextEditingController();
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    _cCtlr.dispose();
+    _fCtlr.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,28 +60,60 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Padding(
-              padding: const EdgeInsets.all(30.0),
-              child: TextFormField(
+              padding: const EdgeInsets.all(50.0),
+              child: TextField(
+                controller: _cCtlr,
+                autofocus: true,
                 textAlign: TextAlign.center,
                 keyboardType: TextInputType.number,
                 decoration: const InputDecoration(
-                    border: UnderlineInputBorder(),
-                    hintText: "temperature in Celsius °C - °F"),
+                    border: UnderlineInputBorder(), hintText: "Celsius °C"),
+                onChanged: (value) {
+                  if (value.isNotEmpty) {
+                    _fCtlr.text = _convertTemp(value, TempType.celcius)
+                        .toStringAsFixed(2);
+                  } else {
+                    _fCtlr.text = "";
+                  }
+                },
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(30.0),
-              child: TextFormField(
+              padding: const EdgeInsets.all(50.0),
+              child: TextField(
+                controller: _fCtlr,
+                autofocus: true,
                 textAlign: TextAlign.center,
                 keyboardType: TextInputType.number,
                 decoration: const InputDecoration(
-                    border: UnderlineInputBorder(),
-                    hintText: "temperature in Fahrenheit °F - °C"),
+                    border: UnderlineInputBorder(), hintText: "Fahrenheit °F"),
+                onChanged: (value) {
+                  if (value.isNotEmpty) {
+                    _cCtlr.text = _convertTemp(value, TempType.fahrenheit)
+                        .toStringAsFixed(2);
+                  } else {
+                    _cCtlr.text = "";
+                  }
+                },
               ),
             ),
           ],
         ),
       ),
     );
+  }
+
+  double _convertTemp(String value, TempType from) {
+    double result = double.tryParse(value) ?? 0;
+    switch (from) {
+      case TempType.celcius:
+        result = result * 9 / 5 + 32;
+        break;
+      case TempType.fahrenheit:
+        result = (result - 32) * 5 / 9;
+        break;
+      default:
+    }
+    return result;
   }
 }
