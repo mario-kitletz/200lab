@@ -30,6 +30,7 @@ dependencies:
   cupertino_icons: ^1.0.0
   pedantic: ^1.9.0
   bubble_tab_indicator: "^0.1.4"
+  provider: ^4.3.3
 
 dev_dependencies:
   flutter_test:
@@ -45,6 +46,10 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/fonts/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -73,6 +78,13 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-  #
+  fonts:
+  - family: AvenirNextLTPro
+    fonts:
+      - asset: assets/fonts/AvenirNextLTPro-Regular.otf
+      - asset: assets/fonts/AvenirNextLTPro-Demi.otf
+      - asset: assets/fonts/AvenirNextLTPro-Bold.otf 
+
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

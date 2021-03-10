@@ -24,7 +24,7 @@ class MyHomePage extends StatelessWidget {
     final screenSize = MediaQuery.of(context).size;
     return MaterialApp(
       home: Scaffold(
-          body: Stack(overflow: Overflow.visible, children: [
+          body: Stack(clipBehavior: Clip.hardEdge, children: [
         Row(
           children: [
             Expanded(
