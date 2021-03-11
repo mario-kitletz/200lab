@@ -19,7 +19,7 @@ class HomeApp extends StatelessWidget {
     return Consumer<AppStateNotifier>(
       builder: (context, appState, child) {
         return MaterialApp(
-          title: '200lab demo swith themes',
+          title: '200lab demo switch themes',
           debugShowCheckedModeBanner: false,
           theme: AppTheme.lightTheme,
           darkTheme: AppTheme.darkTheme,

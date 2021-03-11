@@ -3,12 +3,36 @@
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d2ef4dd6-42e3-479d-8297-a6999bfc27a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/week_1_a/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/week_1_a/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week_1_b/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/week_1_b/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week_1_b/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/week_1_b/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week_1_b/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/week_1_b/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/200lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/200lab.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_2/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/week_2/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_2/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/week_2/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_4/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_4/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_4/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_4/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_4/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/week_4/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,31 +54,36 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app_template" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Flutter.week_1_a">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app_template" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flutter.app_template">
     <configuration default="true" type="FlutterRunConfigurationType" factoryName="Flutter">
-      <option name="filePath" value="$PROJECT_DIR$/week_1_b/lib/main.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/week_2/lib/main.dart" />
       <method v="2" />
     </configuration>
-    <configuration name="week_1_a" type="FlutterRunConfigurationType" factoryName="Flutter">
-      <option name="filePath" value="$PROJECT_DIR$/week_1_a/lib/main.dart" />
-      <method v="2" />
-    </configuration>
-    <configuration name="week_1_b" type="FlutterRunConfigurationType" factoryName="Flutter">
-      <option name="filePath" value="$PROJECT_DIR$/week_1_b/lib/main.dart" />
+    <configuration name="app_template" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/app_template/lib/main.dart" />
       <method v="2" />
     </configuration>
     <configuration name="week_2" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/week_2/lib/main.dart" />
       <method v="2" />
     </configuration>
+    <configuration name="week_4" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/week_4/lib/main.dart" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Flutter.week_1_a" />
-      <item itemvalue="Flutter.week_1_b" />
       <item itemvalue="Flutter.week_2" />
+      <item itemvalue="Flutter.week_4" />
+      <item itemvalue="Flutter.app_template" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -70,48 +99,79 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="472" y="182" key="#Plugins" timestamp="1613725047711">
       <screen x="64" y="25" width="1616" height="1025" />
     </state>
     <state x="472" y="182" key="#Plugins/64.25.1616.1025@64.25.1616.1025" timestamp="1613725047711" />
-    <state x="213" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612103212939">
-      <screen x="58" y="25" width="1382" height="875" />
+    <state x="335" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615431580486">
+      <screen x="54" y="23" width="2506" height="1417" />
     </state>
+    <state x="335" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/54.23.2506.1417@54.23.2506.1417" timestamp="1615431580486" />
     <state x="211" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/56.25.1384.875@56.25.1384.875" timestamp="1612103073643" />
     <state x="213" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/58.25.1382.875@58.25.1382.875" timestamp="1612103212939" />
-    <state x="486" y="256" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1612103209252">
-      <screen x="58" y="25" width="1382" height="875" />
+    <state x="501" y="532" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615431632454">
+      <screen x="54" y="23" width="2506" height="1417" />
     </state>
+    <state x="501" y="532" key="#com.intellij.fileTypes.FileTypeChooser/54.23.2506.1417@54.23.2506.1417" timestamp="1615431632454" />
+    <state x="830" y="397" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1615431579484">
+      <screen x="54" y="23" width="2506" height="1417" />
+    </state>
+    <state x="830" y="397" key="#com.intellij.ide.util.TreeFileChooserDialog/54.23.2506.1417@54.23.2506.1417" timestamp="1615431579484" />
     <state x="486" y="256" key="#com.intellij.ide.util.TreeFileChooserDialog/58.25.1382.875@58.25.1382.875" timestamp="1612103209252" />
-    <state x="168" y="145" width="1162" height="635" key="AVDManager" timestamp="1612102965136">
-      <screen x="58" y="25" width="1382" height="875" />
+    <state x="828" y="472" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1615428668681">
+      <screen x="54" y="23" width="2506" height="1417" />
     </state>
+    <state x="828" y="472" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/54.23.2506.1417@54.23.2506.1417" timestamp="1615428668681" />
+    <state x="253" y="217" width="2108" height="1029" key="AVDManager" timestamp="1615429855744">
+      <screen x="54" y="23" width="2506" height="1417" />
+    </state>
+    <state x="253" y="217" width="2108" height="1029" key="AVDManager/54.23.2506.1417@54.23.2506.1417" timestamp="1615429855744" />
     <state x="168" y="145" width="1162" height="635" key="AVDManager/58.25.1382.875@58.25.1382.875" timestamp="1612102965136" />
-    <state width="1334" height="264" key="GridCell.Tab.0.bottom" timestamp="1613985149329">
-      <screen x="64" y="25" width="1376" height="875" />
+    <state x="943" y="482" key="AndroidProcessChooserDialog" timestamp="1615431432597">
+      <screen x="54" y="23" width="2506" height="1417" />
     </state>
+    <state x="943" y="482" key="AndroidProcessChooserDialog/54.23.2506.1417@54.23.2506.1417" timestamp="1615431432597" />
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom" timestamp="1615431582781">
+      <screen x="54" y="23" width="2506" height="1417" />
+    </state>
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom/54.23.2506.1417@54.23.2506.1417" timestamp="1615431582781" />
     <state width="1320" height="173" key="GridCell.Tab.0.bottom/56.25.1384.875@56.25.1384.875" timestamp="1612103160701" />
     <state width="1320" height="215" key="GridCell.Tab.0.bottom/58.25.1382.875@58.25.1382.875" timestamp="1612104236164" />
     <state width="1334" height="264" key="GridCell.Tab.0.bottom/64.25.1376.875@64.25.1376.875" timestamp="1613985149329" />
     <state width="1358" height="264" key="GridCell.Tab.0.bottom/64.25.1616.1025@64.25.1616.1025" timestamp="1613726272657" />
-    <state width="1334" height="264" key="GridCell.Tab.0.center" timestamp="1613985149329">
-      <screen x="64" y="25" width="1376" height="875" />
+    <state width="1358" height="271" key="GridCell.Tab.0.center" timestamp="1615431582781">
+      <screen x="54" y="23" width="2506" height="1417" />
     </state>
+    <state width="1358" height="271" key="GridCell.Tab.0.center/54.23.2506.1417@54.23.2506.1417" timestamp="1615431582781" />
     <state width="1320" height="173" key="GridCell.Tab.0.center/56.25.1384.875@56.25.1384.875" timestamp="1612103160700" />
     <state width="1320" height="215" key="GridCell.Tab.0.center/58.25.1382.875@58.25.1382.875" timestamp="1612104236163" />
     <state width="1334" height="264" key="GridCell.Tab.0.center/64.25.1376.875@64.25.1376.875" timestamp="1613985149329" />
     <state width="1358" height="264" key="GridCell.Tab.0.center/64.25.1616.1025@64.25.1616.1025" timestamp="1613726272656" />
-    <state width="1334" height="264" key="GridCell.Tab.0.left" timestamp="1613985149329">
-      <screen x="64" y="25" width="1376" height="875" />
+    <state width="1358" height="271" key="GridCell.Tab.0.left" timestamp="1615431582781">
+      <screen x="54" y="23" width="2506" height="1417" />
     </state>
+    <state width="1358" height="271" key="GridCell.Tab.0.left/54.23.2506.1417@54.23.2506.1417" timestamp="1615431582781" />
     <state width="1320" height="173" key="GridCell.Tab.0.left/56.25.1384.875@56.25.1384.875" timestamp="1612103160700" />
     <state width="1320" height="215" key="GridCell.Tab.0.left/58.25.1382.875@58.25.1382.875" timestamp="1612104236162" />
     <state width="1334" height="264" key="GridCell.Tab.0.left/64.25.1376.875@64.25.1376.875" timestamp="1613985149329" />
     <state width="1358" height="264" key="GridCell.Tab.0.left/64.25.1616.1025@64.25.1616.1025" timestamp="1613726272655" />
-    <state width="1334" height="264" key="GridCell.Tab.0.right" timestamp="1613985149329">
-      <screen x="64" y="25" width="1376" height="875" />
+    <state width="1358" height="271" key="GridCell.Tab.0.right" timestamp="1615431582781">
+      <screen x="54" y="23" width="2506" height="1417" />
     </state>
+    <state width="1358" height="271" key="GridCell.Tab.0.right/54.23.2506.1417@54.23.2506.1417" timestamp="1615431582781" />
     <state width="1320" height="173" key="GridCell.Tab.0.right/56.25.1384.875@56.25.1384.875" timestamp="1612103160701" />
     <state width="1320" height="215" key="GridCell.Tab.0.right/58.25.1382.875@58.25.1382.875" timestamp="1612104236164" />
     <state width="1334" height="264" key="GridCell.Tab.0.right/64.25.1376.875@64.25.1376.875" timestamp="1613985149329" />
@@ -132,9 +192,10 @@
       <screen x="64" y="25" width="1616" height="1025" />
     </state>
     <state width="1358" height="264" key="GridCell.Tab.1.right/64.25.1616.1025@64.25.1616.1025" timestamp="1613725103794" />
-    <state x="289" y="111" key="SettingsEditor" timestamp="1613891495865">
-      <screen x="64" y="25" width="1616" height="1025" />
+    <state x="1276" y="319" key="SettingsEditor" timestamp="1615429472224">
+      <screen x="54" y="23" width="2506" height="1417" />
     </state>
+    <state x="1276" y="319" key="SettingsEditor/54.23.2506.1417@54.23.2506.1417" timestamp="1615429472224" />
     <state x="250" y="98" key="SettingsEditor/58.25.1382.875@58.25.1382.875" timestamp="1612102959945" />
     <state x="289" y="111" key="SettingsEditor/64.25.1616.1025@64.25.1616.1025" timestamp="1613891495865" />
     <state x="414" y="210" key="run.anything.popup" timestamp="1612102765439">
