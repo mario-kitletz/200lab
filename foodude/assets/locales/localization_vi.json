@@ -1,0 +1,20 @@
+{
+  "password": "Mật khẩu",
+  "sign_in": "Đăng nhập",
+  "dont_have_account": "Bạn chưa có tài khoản? ",
+  "have_account": "Bạn đã có tài khoản? ",
+  "sign_up": "Đăng kí",
+  "full_name": "Tên đầy đủ",
+  "confirm_password": "Xác nhận mật khẩu",
+  "invalid_name":"Tên không hợp lệ",
+  "first_name":"Tên",
+  "last_name":"Họ",
+  "sth_wrong":"Đã có gì xảy ra. Xin thử lại sau.",
+  "maintain_message": "Tính năng này hiện chưa khả dụng. Xin quay lại sau.",
+  "allow": "Đồng ý",
+  "deny":"Từ chối",
+  "error":"Lỗi",
+  "email":"Email",
+  "cancel":"Cancel",
+  "confirm":"Confirm"
+}

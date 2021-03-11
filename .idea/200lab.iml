@@ -20,6 +20,9 @@
       <excludeFolder url="file://$MODULE_DIR$/app_template/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/app_template/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/app_template/build" />
+      <excludeFolder url="file://$MODULE_DIR$/foodude/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/foodude/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/foodude/build" />
       <excludeFolder url="file://$MODULE_DIR$/week_1_a/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/week_1_a/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/week_1_a/build" />
